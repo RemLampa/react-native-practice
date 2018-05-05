@@ -26,8 +26,6 @@ export default class Contact extends Component {
   handlePress = name => Alert.alert(name);
 
   handleContactChange = (id, key, value) => {
-    console.log(id, key, value);
-
     const data = this.state.data;
 
     data[id][key] = value;
